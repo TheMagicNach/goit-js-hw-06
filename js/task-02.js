@@ -1,4 +1,4 @@
-        const ingredients = [
+const ingredients = [
     'Potatoes',
     'Mushrooms',
     'Garlic',
