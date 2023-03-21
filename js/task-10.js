@@ -13,13 +13,13 @@ function createBoxes(amount)  {
   const arrayForDivs = []
 
   for (let i = 0; i < amount; i += 1) {
-    const createDiv = document.createElement("div");
-    createDiv.style.width = `${sizeDiv}px`;
-    createDiv.style.height = `${sizeDiv}px`;
-    createDiv.style.backgroundColor = getRandomHexColor();
-    createDiv.style.marginLeft = `15px` 
-    createDiv.style.marginBottom = `10px`; 
-    arrayForDivs.push(createDiv)
+    const isCreateDiv = document.createElement("div");
+    isCreateDiv.style.width = `${sizeDiv}px`;
+    isCreateDiv.style.height = `${sizeDiv}px`;
+    isCreateDiv.style.backgroundColor = getRandomHexColor();
+    isCreateDiv.style.marginLeft = `15px`; 
+    isCreateDiv.style.marginBottom = `10px`; 
+    arrayForDivs.push(isCreateDiv);
     sizeDiv += 10;
   }
   boxesDiv.append(...arrayForDivs)
